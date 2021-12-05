@@ -5,14 +5,20 @@
 }
 body{
     overflow: hidden;
+    
 }
 .bg-primary {background-color:var(--primary)!important}
 
 #sidebar-container{
-    min-height: 100vw;
-    
+    position: fixed;
+    height: 100%;
+
 }
-#menu img {
+#menu1 a {
+    text-decoration: none;
+    
+
+}
+#logo{
     padding: .823rem 1.25rem;
-    width: auto;
 }
