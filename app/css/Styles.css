@@ -1,0 +1,18 @@
+:root {
+    --primary: #0E3047;
+    --light:#FFFFFF;
+    
+}
+body{
+    overflow: hidden;
+}
+.bg-primary {background-color:var(--primary)!important}
+
+#sidebar-container{
+    min-height: 100vw;
+    
+}
+#menu img {
+    padding: .823rem 1.25rem;
+    width: auto;
+}
