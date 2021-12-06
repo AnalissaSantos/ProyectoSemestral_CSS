@@ -1,6 +1,7 @@
 :root {
     --primary: #0E3047;
     --light:#FFFFFF;
+    --grey: #efefef;
     
 }
 body{
@@ -8,6 +9,8 @@ body{
     
 }
 .bg-primary {background-color:var(--primary)!important}
+.bg-light { background-color: var(--light) !important; }
+.bg-grey { background-color: var(--grey) !important; }
 
 #sidebar-container{
     position: fixed;
@@ -21,4 +24,13 @@ body{
 }
 #logo{
     padding: .823rem 1.25rem;
+}
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+    padding-left: 11rem;
+}
+blockquote {
+    padding-left: 15rem;
 }
