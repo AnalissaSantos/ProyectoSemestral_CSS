@@ -34,3 +34,7 @@ body{
 blockquote {
     padding-left: 15rem;
 }
+
+ion-icon {
+    font-size: 64px;
+}
