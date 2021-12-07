@@ -7,6 +7,8 @@
     
 }
 
+
+
 .bg-primary {background-color:var(--primary)!important}
 .bg-light { background-color: var(--light) !important; }
 .bg-grey { background-color: var(--grey) !important; }
@@ -25,9 +27,6 @@ font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, G
 font-size: 2.25rem;
 }
 
-/*.blog-header-logo:hover {
-text-decoration: none;
-}*/
 
 h1, h2, h3, h4, h5, h6 {
 font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
