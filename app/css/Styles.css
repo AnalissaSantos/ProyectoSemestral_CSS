@@ -8,6 +8,7 @@
 }
 body{
     overflow: hidden;
+    align-items: center;
     
 }
 .bg-primary {background-color:var(--primary)!important}
@@ -32,9 +33,10 @@ body{
 #content {
     overflow-y: auto;
     height: 100vh;
-    padding-bottom: 5rem;
     padding-left: 12rem;
+    padding-top: 2rem;
 }
+
 
 blockquote {
     padding-left: 15rem;
@@ -55,3 +57,13 @@ blockquote {
     padding-right: 1rem;
 }
 
+#Agenda_Box{
+    
+    padding-top: 5rem  ;
+    padding-left: 5rem ;
+    padding-right: 5rem ;
+    padding-bottom: 5rem;
+}
+#boton_principal:hover{
+    background-color: var(--grey);
+}

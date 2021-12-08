@@ -14,8 +14,7 @@
     <!--links carrusel-->
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
-    <style></style>
-    <script type='text/javascript' src=''></script>
+    
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
     <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
 
@@ -25,242 +24,210 @@
     <!-- Ionic icons -->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
-  </head>
+    </head>
 
-  <body>
-    <!--Nav Bar-->
-    <header class="navbar navbar-dark sticky-top bg-secondary flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
-      <div class="navbar-nav">
-        <div class="nav-item text-nowrap">
-          <a class="nav-link px-3" href="#">Sign out</a>
+    <body>
+        <!--Nav Bar-->
+        <header class="navbar navbar-dark sticky-top bg-secondary flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
+        <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+            <a class="nav-link px-3" href="#">Sign out</a>
+            </div>
         </div>
-      </div>
-    </header>
-    
+        </header>
+        
 
-    <!-- Side Bar-->
-    <div class="d-flex">
-      <div id="sidebar-container" class="bg-primary "> 
-        
-        <div id="logo">
-          <img src="assets/images/css_logo.png" width="100" height="100">
+        <!-- Side Bar-->
+        <div class="d-flex">
+        <div id="sidebar-container" class="bg-primary "> 
+            
+            <div id="logo">
+            <img src="assets/images/css_logo.png" width="100" height="100">
+            </div>
+            
+            <div class="container" id="menu1">
+            <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+                Dashboard</a>
+            <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
+            Configuración</a>
+            </div>
+            
         </div>
-          
-        <div class="container" id="menu1">
-          <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
-            Dashboard</a>
-          <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
-          Configuración</a>
         </div>
-        
-      </div>
-    </div>
-    <!--contenido-->
-    <div id ="content" class="bg-grey w-100">
-      <section class="bg-light py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 col-md-8">
-                  
-                    <div class="text-center">
-                      <blockquote class="text-center blockquote">
-                      
-                      <h1 class=""><ion-icon ion-icon name="home" size="large" ></ion-icon>Home</h1>
-                      </blockquote>
+        <!--contenido-->
+        <div id ="content" class="bg-grey w-100">
+        <section class="bg-light py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8">
+                    
+                        <div class="text-center">
+                        <blockquote class="text-center blockquote">
+                        
+                        <h1 class=""><ion-icon ion-icon name="home" size="large" ></ion-icon>Home</h1>
+                        </blockquote>
+                        </div>
+                        
+                        <h1 class="font-weight-bold mb-0">Bienvenida Jane Doe</h1>
+                        <p class="lead text-muted">Beneficiaria de la asegurada: "Katherine Pierce"</p>
+                    
+
+                    </div>
+                    <div class="container ">
+                <div class=" bg-secondary text-light" id= "Proxima_Cita">
+                    <h3 class="">Su Próxima Cita es:</h3>
+                    <div class= row>
+                    <div class="col-sm-6">
+                    <p>Especialidad: <b>Medicina General</b></p>
+                    <p>Policlínica: <b>Manuel María Valdés</b></p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <p>Hora: <b>7:00a.m.</b></p>
+                        <p>Fecha: <b>24 de noviembre 2021</b></p>
+                        </div>
+                        <p><i>¡Recuerda llegar a tiempo y llevar lo necesario!</i></p>
                     </div>
                     
-                    <h1 class="font-weight-bold mb-0">Bienvenida Jane Doe</h1>
-                    <p class="lead text-muted">Beneficiaria de la asegurada: "Katherine Pierce"</p>
-                  
-
-                </div>
-                  <div class="container ">
-              <div class=" bg-secondary text-light" id= "Proxima_Cita">
-                <h3 class="">Su Próxima Cita es:</h3>
-                <div class= row>
-                  <div class="col-sm-6">
-                  <p>Especialidad: <b>Medicina General</b></p>
-                  <p>Policlínica: <b>Manuel María Valdés</b></p>
-                  </div>
-
-                  <div class="col-sm-6">
-                    <p>Fecha: <b>7:00a.m.</b></p>
-                    <p>Fecha: <b>24 de noviembre 2021</b></p>
-                    </div>
-                    <p><i>¡Recuerda llegar a tiempo y llevar lo necesario!</i></p>
-                </div>
-                
-                  
-                  
-              </div>
-              
-        </div>
-                <div>
-                    <!--carrusel-->
-                    <section class="pt-5 pb-5">
-                      <div class="container">
-                          <div class="row">
-                              <div class="col-6">
-                                  <h3 class="mb-3">Citas Programadas </h3>
-                              </div>
-                              <div class="col-6 text-right">
-                                  <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                                      <i class="fa fa-arrow-left"></i>
-                                  </a>
-                                  <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                                      <i class="fa fa-arrow-right"></i>
-                                  </a>
-                              </div>
-                              <div class="col-12">
-                                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                  
-                                      <div class="carousel-inner">
-                                          <div class="carousel-item active">
-                                              <div class="row">
-                  
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                  
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                  
-                                              </div>
-                                          </div>
-                                          <div class="carousel-item">
-                                              <div class="row">
-                  
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                  
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                  
-                                              </div>
-                                          </div>
-                                          <div class="carousel-item">
-                                              <div class="row">
-                  
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                  
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-4 mb-3">
-                                                      <div class="card">
-                                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                                          <div class="card-body">
-                                                              <h4 class="card-title">Special title treatment</h4>
-                                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </section>
-                <script type='text/javascript'></script>
-                  <!----fin carrusel-->
+                    
+                    
                 </div>
                 
             </div>
-        </div>
-          
-      </section>
-      <div class="container">
-    <section>
-            <footer class="page-footer font-small flex-md-nowrap p-0 shadow">
-              <!-- Copyright -->
-              <div class="footer-copyright text-center py-4 text-light bg-primary ">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-              </div>
-              <!-- Copyright -->
+                    <div>
+                        <!--carrusel-->
+                        <section class="pt-5 pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="mb-3">Citas Programadas </h3>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <i class="fa fa-arrow-left"></i>
+                                    </a>
+                                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                                <div class="col-12">
+                                    <div id="carouselExampleIndicators2" class="carousel slide " data-interval="false" data-ride="carousel">
+                    
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row">
+                    
+                                                    <div class="col-md-4 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid" alt="100%x200"  src="assets/images/especialidades/1.png">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">4 de noviembre del 2021</h5>
+                                                                <h6 class="card-text">Hora: 6:00a.m.<br>Policlínica: Manuel María Valdés</h6>
+                    
+                                                            </div>
+                    
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid" alt="100%x280" src="assets/images/especialidades/2.png">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Special title treatment</h4>
+                                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid" alt="100%x280" src="assets/images/especialidades/3.png">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Special title treatment</h4>
+                                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row">
+                    
+                                                    <div class="col-md-4 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid" alt="100%x280" src="assets/images/especialidades/4.png">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Special title treatment</h4>
+                                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    
+                                                            </div>
+                    
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid" alt="100%x280" src="assets/images/especialidades/5.png">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Special title treatment</h4>
+                                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid" alt="100%x280" src="assets/images/especialidades/6.png">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Special title treatment</h4>
+                                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <script type='text/javascript'></script>
+                    <!----fin carrusel-->
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
 
-            </footer>
-          </section>
+            <div class="container">
+        </div>   
+        <section>
+                <footer class="page-footer font-small flex-md-nowrap p-0 shadow">
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-4 text-light bg-primary ">© 2020 Copyright:
+                    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+
+                </footer>
+            </section>
     </div>
-      
+
     </div>
     
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  <!-- Footer -->
+    <!-- Footer -->
 
 <!-- Footer -->
-  </body>
-  
+    </body>
+
 
 </html>
