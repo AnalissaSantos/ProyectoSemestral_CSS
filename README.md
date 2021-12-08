@@ -5,7 +5,7 @@
   
 ## Organización
 Hello intentemos utilizar esto como un mini bloc de notas
-* Analissa - Rama: Anny 
-* Ana 
+* Analissa
+* Ana Saa
 * José Méndez
 * Raul 満 
