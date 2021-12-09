@@ -1,14 +1,154 @@
 /*Separa el contenido centrla del sidebar*/
-.Content__{
+.Content-{
     margin-left: 11em;
-    padding: 0em 2em 0em 2em;
-    border: solid;
-    border-color: #035AA7;
+    padding: 0em 6em ;
+    /*border: solid;*/
+    /*border-color: #035AA7;*/
 }
 /*Separa el footer del sidebar*/
-.Footer__{
+.Footer-{
     margin-left: 11em;
     /*padding: 0em 2em 0em 2em;*/
     /*border: solid;*/
-    border-color: #035AA7;
+    /*border-color: #035AA7;*/
+}
+/*Header del contenido*/
+/*Separa el header el navbar*/
+.Content-Header {
+    padding: 2em 0em 0em 0em;
+}
+/*Header text*/
+.Content-Header__textH1{
+    font-weight: bold;
+    display: inline;
+    margin: 0em 0em 0em 3em;
+}
+/*Txto del header body*/
+.Content-Header__text{
+    display: inline;
+    margin: 0em 0em 0em 3em;
+    font-size: 1.2rem;
+}
+/*Inconos*/
+.Content-icon{
+    font-size: 0.8em;
+    margin: 0em;
+}
+
+/*Contenido perse*/
+.Content-body{
+    margin: 1.5em 0em 0em 0em;
+}
+
+.Content-body__text-h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0em 0em 0.1em 0em;
+}
+
+.Content-body__text-p{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.Content-body__item-header{
+    display: flex;
+    /*margin: 0em 0em 0em 0em;*/
+    justify-content: space-between;
+}
+
+/*Botones*/
+.btn-primary {
+    color: #fff;
+    background-color: #1E8FB5;
+    border-color: #1E8FB5;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #727272;
+    border-color: #727272;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #727272;
+    border-color: #727272;
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #727272;
+    border-color: #0a53be;
+}
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.btn-primary:disabled, .btn-primary.disabled {
+    color: #fff;
+    background-color: #1E8FB5;
+    border-color: #1E8FB5;
+}
+
+/*Tablas*/
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+
+}
+/*Filas*/
+.table-light {
+    --bs-table-bg: #f8f9fa;
+    --bs-table-striped-bg: #ecedee;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #dfe0e1;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #e5e6e7;
+    --bs-table-hover-color: #000;
+    color: #000;
+    border-color: #dfe0e1;
+    /*border-radius: 20px;*/
+    /*overflow: hidden;*/
+}
+
+/*Botones de tabla*/
+/*Botones*/
+.btn-primaryTable {
+    color: #000000;
+    background-color: #dee2e6;
+    border-color: #dee2e6;
+}
+.btn-primaryTable:hover {
+    color: #fff;
+    background-color: #727272;
+    border-color: #727272;
+}
+.btn-check:focus + .btn-primaryTable, .btn-primaryTable:focus {
+    color: #fff;
+    background-color: #727272;
+    border-color: #727272;
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.btn-check:checked + .btn-primaryTable, .btn-check:active + .btn-primaryTable, .btn-primaryTable:active, .btn-primaryTable.active, .show > .btn-primaryTable.dropdown-toggle {
+    color: #fff;
+    background-color: #727272;
+    border-color: #0a53be;
+}
+.btn-check:checked + .btn-primaryTable:focus, .btn-check:active + .btn-primaryTable:focus, .btn-primaryTable:active:focus, .btn-primaryTable.active:focus, .show > .btn-primaryTable.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.btn-primaryTable:disabled, .btn-primaryTable.disabled {
+    color: #fff;
+    background-color: #1E8FB5;
+    border-color: #1E8FB5;
 }
