@@ -7,10 +7,10 @@
     
 }
 
-body{
+/*body{
     overflow: hidden;
     
-}
+}*/
 .bg-primary {background-color:var(--primary)!important}
 .bg-light { background-color: var(--light) !important; }
 .bg-grey { background-color: var(--grey) !important; }
