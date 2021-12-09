@@ -1,0 +1,14 @@
+/*Separa el contenido centrla del sidebar*/
+.Content__{
+    margin-left: 11em;
+    padding: 0em 2em 0em 2em;
+    border: solid;
+    border-color: #035AA7;
+}
+/*Separa el footer del sidebar*/
+.Footer__{
+    margin-left: 11em;
+    /*padding: 0em 2em 0em 2em;*/
+    /*border: solid;*/
+    border-color: #035AA7;
+}
