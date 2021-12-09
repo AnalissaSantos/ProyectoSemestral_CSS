@@ -1,17 +1,13 @@
 :root {
     --primary: #02427A;
     --secondary:#035AA7;
-    --dark:
     --light:#FFFFFF;
     --grey: #efefef;
     
 }
 
 
-body{
-    overflow:hidden;
 
-}
 .bg-primary {background-color:var(--primary)!important}
 .bg-light { background-color: var(--light) !important; }
 .bg-grey { background-color: var(--grey) !important; }
@@ -58,11 +54,8 @@ blockquote {
 
 #Agenda_Box{
     
-    padding-top: 5rem  ;
-    padding-left: 5rem ;
-    padding-right: 5rem ;
-    padding-bottom: 5rem;
-}
-#boton_principal:hover{
-    background-color: var(--grey);
+    padding-top: 6rem  ;
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+    padding-bottom: 8rem;
 }
