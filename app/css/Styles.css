@@ -1,16 +1,20 @@
 :root {
-    --primary: #0E3047;
+    --primary: #02427A;
+    --secondary:#035AA7;
+    --dark:
     --light:#FFFFFF;
     --grey: #efefef;
     
 }
-body{
+
+/*body{
     overflow: hidden;
     
-}
+}*/
 .bg-primary {background-color:var(--primary)!important}
 .bg-light { background-color: var(--light) !important; }
 .bg-grey { background-color: var(--grey) !important; }
+.bg-secondary{background-color: var(--secondary) !important;}
 
 #sidebar-container{
     position: fixed;
@@ -24,13 +28,40 @@ body{
 }
 #logo{
     padding: .823rem 1.25rem;
+    padding-left: 3rem;
 }
 #content {
     overflow-y: auto;
     height: 100vh;
-    padding-bottom: 5rem;
-    padding-left: 11rem;
+    padding-left: 12rem;
 }
+/*
 blockquote {
-    padding-left: 15rem;
+    padding-left: 1rem;
+}*/
+#Proxima_Cita{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1rem;
+}
+#Proxima_Cita h3{
+
+    padding-bottom: 2rem;
+}
+#Citas_Programadas {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#Agenda_Box{
+    
+    padding-top: 5rem  ;
+    padding-left: 5rem ;
+    padding-right: 5rem ;
+    padding-bottom: 5rem;
+}
+#boton_principal:hover{
+    background-color: var(--grey);
 }
