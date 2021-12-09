@@ -6,6 +6,12 @@
 ## Organización
 Hello intentemos utilizar esto como un mini bloc de notas
 * Analissa
+<<<<<<< HEAD
 * Ana 
 * José Méndez 
 * Raulm 満 
+=======
+* Ana Saa :)
+* José Méndez
+* Raul 満 
+>>>>>>> 6d056aa9887406ad57ad69634ef3d30e9b17a09a
