@@ -1,8 +1,9 @@
 :root {
     --primary: #02427A;
     --secondary:#035AA7;
-    --light:#FFFFFF;
+    --light: #FFFFFF;
     --grey: #efefef;
+    --font-family: 'Roboto', sans-serif;
     
 }
 
@@ -12,6 +13,40 @@
 .bg-light { background-color: var(--light) !important; }
 .bg-grey { background-color: var(--grey) !important; }
 .bg-secondary{background-color: var(--secondary) !important;}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    /* rtl:raw:
+    right: 0;
+    */
+    bottom: 0;
+    /* rtl:remove */
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+    top: 5rem;
+    }
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
 
 #sidebar-container{
     position: fixed;
@@ -52,10 +87,18 @@ blockquote {
     padding-right: 1rem;
 }
 
+#Proximo_paciente{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+    
 #Agenda_Box{
     
     padding-top: 6rem  ;
     padding-left: 3rem ;
     padding-right: 3rem ;
     padding-bottom: 8rem;
+    min-height: 25rem;
+    max-height: 25rem;
 }
