@@ -1,7 +1,7 @@
 :root {
     --primary: #02427A;
     --secondary:#035AA7;
-    --light:#FFFFFF;
+    --light: #FFFFFF;
     --grey: #efefef;
     --font-family: 'Roboto', sans-serif;
     
@@ -91,6 +91,7 @@ blockquote {
     background-color: white;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
     
 #Agenda_Box{
     
