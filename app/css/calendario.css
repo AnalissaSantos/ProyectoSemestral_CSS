@@ -16,16 +16,9 @@
 
     --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-    --font-family: cursive;
+    --font-family: 'Roboto', sans-serif;
 }
 
-.dark {
-    --bg-body: var(--dark-body);
-    --bg-main: var(--dark-main);
-    --bg-second: var(--dark-second);
-    --color-hover: var(--dark-hover);
-    --color-txt: var(--dark-text);
-}
 
 .light {
     --bg-body: var(--light-body);
@@ -35,19 +28,19 @@
     --color-txt: var(--light-text);
 }
 
-* {
+/* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
+    box-sizing: content-box;
+}*/
 
-html,
-body {
-    height: 100vh;
-    display: grid;
-    place-items: center;
+
+.contenedor {
+    height: max-content;
+    width: auto;
+    
     font-family: var(--font-family);
-    background-color: var(--bg-body);
+    background-color: #17457e;
 }
 
 .calendar {
@@ -57,8 +50,9 @@ body {
     border-radius: 30px;
     padding: 20px;
     position: relative;
+    right: 50px;
     overflow: hidden;
-    /* transform: scale(1.25); */
+    transform: scale(0.50); 
 }
 
 .light .calendar {
