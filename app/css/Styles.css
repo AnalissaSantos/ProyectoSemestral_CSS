@@ -1,16 +1,14 @@
 :root {
     --primary: #02427A;
     --secondary:#035AA7;
-    --dark:
     --light:#FFFFFF;
     --grey: #efefef;
     --font-family: 'Roboto', sans-serif;
     
 }
-/*body{
-    overflow: hidden;
-    
-}*/
+
+
+
 .bg-primary {background-color:var(--primary)!important}
 .bg-light { background-color: var(--light) !important; }
 .bg-grey { background-color: var(--grey) !important; }
@@ -67,13 +65,12 @@
 #content {
     overflow-y: auto;
     height: 100vh;
-    padding-bottom: 5rem;
     padding-left: 12rem;
 }
-
+/*
 blockquote {
-    padding-left: 15rem;
-}
+    padding-left: 1rem;
+}*/
 #Proxima_Cita{
     padding-top: 1rem;
     padding-left: 1rem;
@@ -95,4 +92,10 @@ blockquote {
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
+#Agenda_Box{
+    
+    padding-top: 6rem  ;
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+    padding-bottom: 8rem;
 }
