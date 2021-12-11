@@ -91,7 +91,7 @@
                 <h1>Agenda tus citas hoy</h1>
                 <p class="lead">La nueva vía para agendar tus citas en policlínicas del Seguro Social. Ahora podrás agendar tus citas de forma rápida y sin demora. </p>
                 <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Agendar Cita</a>
+                <a href="Paciente-Login-Index.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Agendar Cita</a>
                 </p>
             </main>
 
