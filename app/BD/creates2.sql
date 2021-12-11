@@ -1,5 +1,7 @@
 CREATE DATABASE CitaWebDB;
 
+use CitaWebDB
+
 CREATE TABLE Paciente (
     N_CedulaPaciente VARCHAR(20) NOT NULL,
     N_Seguro_Pac VARCHAR(20),
