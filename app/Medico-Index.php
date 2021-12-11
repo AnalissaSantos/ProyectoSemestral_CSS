@@ -35,7 +35,11 @@
                     <div class="nav-item text-nowrap">
                         <a class="nav-link px-3" href="#">Cerrar Sesión</a>
                     </div>
+<<<<<<< HEAD
+                </div>
+=======
                 </div> 
+>>>>>>> dfb2f331c12d97526460f49b33465d553d4edcef
             </header>
         </div>
 

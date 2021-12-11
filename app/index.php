@@ -1,21 +1,19 @@
 <!doctype html>
-<html lang="es" class="h-100">
+<html lang="en" class="h-100">
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Caja Seguro Social Citas</title>
+    <title>Cover Template · Bootstrap v5.1</title>
 
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
     <style>
         .bd-placeholder-img {
         font-size: 1.125rem;
@@ -35,7 +33,6 @@
     
     <!-- Custom styles for this template -->
     <link href="css/inicio.css" rel="stylesheet">
-    </head>
     <body class="d-flex h-100 text-center text-white" style="background-image: url(assets/images/background.png);">
         
 
@@ -59,39 +56,37 @@
             <!--navigation bar-->
             <div class="mb-auto">
                 <div >
-                    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" >
-                        <div class="container-fluid ">
+                    <nav class="navbar navbar-expand-sm text-white navbar-dark sticky-top">
+                        <div class="container-fluid">
         
-                            <button class="navbar-toggler text-white border-white" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                             <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="mynavbar">
-                                <ul class="navbar-nav me-auto ">
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-white" href="inicio.html">Inicio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link text-white" href="javascript:void(0)">Agendar Cita</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link text-white" href="javascript:void(0)">Verificar Citas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="javascript:void(0)">Ayuda al Beneficiario</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="javascript:void(0)">Policlínicas</a>
-                                    </li>
-                                </ul>
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Agendar Cita</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Verificar Citas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">Ayuda al Beneficiario</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">Policlínicas</a>
+                                </li>
+                            </ul>
                             
                             </div>
                         </div>
                     </nav>
-                    <!--navigation bar-->
                 </div>
             </div>
 
-            <!--contenido Principal-->
             <main class="px-0">
                 <h1>Agenda tus citas hoy</h1>
                 <p class="lead">La nueva vía para agendar tus citas en policlínicas del Seguro Social. Ahora podrás agendar tus citas de forma rápida y sin demora. </p>
