@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Icono-->
     <link rel="icon" href="../assets/images/Flavicon.png" sizes="16x16" type="image/png">
@@ -37,7 +37,7 @@
                 <a href="../home.html"><img src="../assets/images/css_logo.png" width="100" height="100"></a>
             </div>
             <div class="container" id="menu1">
-                <a href="../Medico-Index.html" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+                <a href="../Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                     Dashboard</a>
                 <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
                     Configuración</a>
@@ -58,12 +58,12 @@
         <div class="Content-body">
             <div class="Content-body__item-header">
                 <div>
-                    <p class="Content-body__text-h1">Rol "Nombre rol"</p>
-                    <p class="Content-body__text-p">Editar información de un personal</p>
+                    <p class="Content-body__text-h1">Nuevo Personal</p>
+                    <p class="Content-body__text-p">Digitar la información requerida</p>
                 </div>
 <!--                <div>-->
-<!--                    <a href="Admin-Espec.html"><button type="button" class="btn btn-primary">Agregar Especialidad</button></a>-->
-<!--                    <a href="Admin-Rol.html"><button type="button" class="btn btn-primary">Regristrar Roles</button></a>-->
+<!--                    <a href="Admin-Espec.php"><button type="button" class="btn btn-primary">Agregar Especialidad</button></a>-->
+<!--                    <a href="Admin-Rol.php"><button type="button" class="btn btn-primary">Regristrar Roles</button></a>-->
 <!--                </div>-->
             </div>
         </div>
@@ -72,12 +72,12 @@
 <!--            Nombre-->
             <div class="mb-3">
                 <label for="Nombre_RolInput" class="form-label">Nombre </label>
-                <input id="Nombre_RolInput" name="__Nombre_Rol" type="text" class="form-control"  value="Sutana" placeholder="Sutanita" required>
+                <input id="Nombre_RolInput" name="__Nombre_Rol" type="text" class="form-control"  value="" placeholder="Sutanita" required>
             </div>
 <!--           Apellido Nombre-->
             <div class="mb-3">
                 <label for="Apellido_RolInput" class="form-label">Apellido </label>
-                <input id="Apellido_RolInput" name="__Apellido_Rol" type="text" class="form-control"  value="Menganita" placeholder="Menganita" required>
+                <input id="Apellido_RolInput" name="__Apellido_Rol" type="text" class="form-control"  value="" placeholder="Menganita" required>
             </div>
 <!--           Apellido2 Nombre-->
             <div class="mb-3">
@@ -87,12 +87,12 @@
 <!--            Cédula -->
             <div class="mb-3">
                 <label for="Cedula_RolInput" class="form-label">Cédula </label>
-                <input id="Cedula_RolInput" name="__Cedula_RolInput" type="text" class="form-control" value="8-549-6215" placeholder="x-xxx-xxxx" required>
+                <input id="Cedula_RolInput" name="__Cedula_RolInput" type="text" class="form-control" value="" placeholder="x-xxx-xxxx" required>
             </div>
 <!--            Email -->
             <div class="mb-3">
                 <label for="Email_RolInput" class="form-label">Cédula </label>
-                <input id="Email_RolInput" name="__Email_RolInput" type="email" class="form-control" value="sutana.menganita5@ingweb.com" placeholder="correo@web.com" required>
+                <input id="Email_RolInput" name="__Email_RolInput" type="email" class="form-control" value="" placeholder="correo@web.com" required>
             </div>
 <!--            Contraseña -->
             <div class="mb-3">
@@ -102,12 +102,12 @@
 <!--            Id doctor -->
             <div class="mb-3">
                 <label for="DocID_RolInput" class="form-label">Codigo Medico </label>
-                <input id="DocID_RolInput" name="__DocID_RolInput" type="text" class="form-control" value="13EISPV2" placeholder="xxxxx" required>
+                <input id="DocID_RolInput" name="__DocID_RolInput" type="text" class="form-control" value="" placeholder="xxxxx" required>
             </div>
 <!--            clinica labora-->
             <div class="mb-3">
                 <label for="DocClinic_RolInput" class="form-label">Clinica Asociada </label>
-                <input id="DocClinic_RolInput" name="__DocClinic_RolInput" type="number" class="form-control" value="2" placeholder="numero de identificación de la clinica" required>
+                <input id="DocClinic_RolInput" name="__DocClinic_RolInput" type="number" class="form-control" value="" placeholder="numero de identificación de la clinica" required>
             </div>
 <!--            Enviar cambios-->
             <br>

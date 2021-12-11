@@ -45,13 +45,13 @@
             <div class="sticky-top ">
                 <header class="blog-header py-3 ">
                     <div class="row flex-nowrap justify-content-between align-items-center ">
-                    <div class="col-4 pt-1">
-                        <a href="inicio.html"><img src="assets/images/cssbannerlight.png" alt="logo caja seguro social"></a>
-                    </div>
-        
-                    <div class="col-2 d-flex  text-white justify-content-around">
-                        <a id="iniciar" class="btn btn-sm btn-outline-secondary  text-white border-white" href="Login-Index.html">Iniciar Sesión</a>
-                    </div>
+                        <div class="col-4 pt-1">
+                            <a href="index.php"><img src="assets/images/cssbannerlight.png" alt="logo caja seguro social"></a>
+                        </div>
+
+                        <div class="col-2 d-flex  text-white justify-content-around">
+                            <a class="btn btn-sm btn-outline-secondary" href="Login-Index.php">Iniciar Sesión</a>
+                        </div>
                     </div>
                 </header>
             </div>

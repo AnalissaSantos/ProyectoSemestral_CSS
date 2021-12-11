@@ -37,7 +37,7 @@
                 <a href="../home.html"><img src="../assets/images/css_logo.png" width="100" height="100"></a>
             </div>
             <div class="container" id="menu1">
-                <a href="../Medico-Index.html" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+                <a href="../Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                     Dashboard</a>
                 <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
                     Configuración</a>
@@ -58,13 +58,13 @@
         <div class="Content-body ">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link "  href="Admin-PolicHome.html">Policlinicas</a>
+                    <a class="nav-link "  href="Admin-PolicHome.php">Policlinicas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link "  href="Admin-Espec.html">Especialidades</a>
+                    <a class="nav-link "  href="Admin-Espec.php">Especialidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Admin-Rol.html">Roles</a>
+                    <a class="nav-link active" aria-current="page" href="Admin-Rol.php">Roles</a>
                 </li>
                 <!--                <li class="nav-item">-->
                 <!--                    <a class="nav-link disabled">Disabled</a>-->
@@ -80,8 +80,8 @@
                     <p class="Content-body__text-h1">Personal Registrado</p>
                 </div>
                 <div>
-                    <a href="Admin-Rol-new.html"><button type="button" class="btn btn-primary"><ion-icon class="Content-icon" name="add-circle-outline"></ion-icon> Agregar personal</button></a>
-                    <!--                    <a href="Admin-Rol.html"><button type="button" class="btn btn-primary">Regristrar Roles</button></a>-->
+                    <a href="Admin-Rol-new.php"><button type="button" class="btn btn-primary"><ion-icon class="Content-icon" name="add-circle-outline"></ion-icon> Agregar personal</button></a>
+                    <!--                    <a href="Admin-Rol.php"><button type="button" class="btn btn-primary">Regristrar Roles</button></a>-->
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
                     <td>Mark</td>
                     <td>Otto</td>
                     <td><div class="btn-group" role="group" aria-label="Basic example">
-                        <a href="Admin-Rol-edit.html"><button type="button" class="btn btn-primaryTable"><ion-icon name="create"></ion-icon></button></a>
+                        <a href="Admin-Rol-edit.php"><button type="button" class="btn btn-primaryTable"><ion-icon name="create"></ion-icon></button></a>
                         <button type="button" class="btn btn-primaryTable"><ion-icon name="trash"></ion-icon></button>
                     </div></td>
                 </tr>

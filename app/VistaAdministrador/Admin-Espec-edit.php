@@ -37,7 +37,7 @@
                 <a href="../home.html"><img src="../assets/images/css_logo.png" width="100" height="100"></a>
             </div>
             <div class="container" id="menu1">
-                <a href="../Medico-Index.html" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+                <a href="../Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                     Dashboard</a>
                 <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
                     Configuración</a>
@@ -62,7 +62,7 @@
                     <p class="Content-body__text-p">Editar información</p>
                 </div>
 <!--                <div>-->
-<!--                    <a href="Admin-Espec.html"><button type="button" class="btn btn-primary">Agregar Especialidad</button></a>-->
+<!--                    <a href="Admin-Espec.php"><button type="button" class="btn btn-primary">Agregar Especialidad</button></a>-->
 <!--                    <a href="Admin-Rol.html"><button type="button" class="btn btn-primary">Regristrar Roles</button></a>-->
 <!--                </div>-->
             </div>

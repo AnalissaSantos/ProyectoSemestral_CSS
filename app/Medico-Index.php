@@ -33,7 +33,7 @@
                 <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
                 <div class="navbar-nav">
                     <div class="nav-item text-nowrap">
-                        <a class="nav-link px-3" href="Index.html">Cerrar Sesión</a>
+                        <a class="nav-link px-3" href="#">Cerrar Sesión</a>
                     </div>
                 </div> 
             </header>
@@ -50,14 +50,14 @@
                                     <img src="assets/images/css_logo.png" width="100" height="100">
                                 </div>
                                 <br>
-                                <a class="nav-link active text-light" aria-current="page" href="medico-index.html">
+                                <a class="nav-link active text-light" aria-current="page" href="#">
                                     <span data-feather="home"></span>
                                     <i class="icon ion-md-home lead mr-2"></i>
                                     Inicio
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="medicoAgenda.html">
+                                <a class="nav-link text-light" href="#">
                                     <span data-feather="file"></span>
                                     <i class="icon ion-md-settings lead mr-2"></i>
                                     Agenda

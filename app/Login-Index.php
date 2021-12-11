@@ -41,7 +41,7 @@
                     <header class="blog-header py-3 ">
                         <div class="row flex-nowrap justify-content-between align-items-center ">
                             <div class="col-4 pt-1">
-                                <a href="index.html"><img src="assets/images/cssbannerlight.png" alt="logo caja seguro social"></a>
+                                <a href="index.php"><img src="assets/images/cssbannerlight.png" alt="logo caja seguro social"></a>
                             </div>
 
                         </div>
@@ -60,7 +60,7 @@
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1" name="pass">
-                                <a href="Login-Restablecer.html" class="text-white">Olvidé mi contraseña</a>
+                                <a href="Login-Restablecer.php" class="text-white">Olvidé mi contraseña</a>
                             </div>
                             <br>
                             <div>

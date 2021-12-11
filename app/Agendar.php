@@ -52,7 +52,7 @@
             </div>
             
             <div class="container" id="menu1">
-            <a href="Medico-Index.html" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+            <a href="Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                 Dashboard</a>
             <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
             Configuración</a>
@@ -84,11 +84,7 @@
                     <hr>
                     
                     <section>
-
-                        <!--
-                            recuperacion de datos de texto con _POST para el form del carrusel
-                        -->
-                        <form action="index.html" method="post" target="_blank">
+                        <form action="index.php">
 
                             
                             <div class" id="my-carousel" class="carousel carousel-dark slide carousel-fade" data-bs-touch="false"  data-interval="false">
