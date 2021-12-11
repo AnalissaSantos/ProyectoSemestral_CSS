@@ -84,9 +84,8 @@
                     <hr>
                     
                     <section>
-                        <form action="index.php">
 
-                            
+                        <form action="index.php" method="post">
                             <div class" id="my-carousel" class="carousel carousel-dark slide carousel-fade" data-bs-touch="false"  data-interval="false">
                                 <ol class="carousel-indicators">
                                     <li class="active" data-target="#my-carousel" data-slide-to="0" ></li>
@@ -100,9 +99,9 @@
 
                                 </ol>
                                 <div class="carousel-inner mh-100">
-                                    
+
                                     <div class="carousel-item active">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary ">
                                                 <div class="container text-light" id="Agenda_Box">
@@ -111,48 +110,48 @@
                                                     <h3>¡Empezemos!</h3> <br>
                                                     <p>Para iniciar selecciona la flecha derecha</p>
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
 
                                     </div>
 
                                     <div class="carousel-item ">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-                                                                
+
                                                                 <h3>Introduzca o Verifique su correo electrónico *</h3>
-                                                                
-                                                            </div> 
+
+                                                            </div>
                                                             <div class="col">
                                                                     <input type="email" class="form-control" placeholder="ejemplo@css.com" aria-describedby="basic-addon2" required>
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class=" d-flex align-items-center text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2 ">
                                                             <br>
                                                             <div class="col">
-                                                                
+
                                                                 <h3>¿En qué policlínica le gustaría agendar? *</h3>
-                                                                
-                                                            </div> 
+
+                                                            </div>
                                                             <div class="col">
-                                                                    
+
                                                                     <select class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona una policlínica</option>
                                                                         <option value="1">Manuel María Valdés</option>
@@ -165,24 +164,24 @@
                                                             <br>
                                                         </div>
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-                                                                
+
                                                                 <h3>¿Con qué especialidad le gustaría agendar? *</h3>
-                                                                
-                                                            </div> 
+
+                                                            </div>
                                                             <div class="col">
-                                                                    
+
                                                                     <select class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona una especialidad</option>
                                                                         <option value="1">Medicina General</option>
@@ -197,22 +196,22 @@
                                                             <br>
                                                         </div>
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-                                                                
+
                                                                 <h3>¿Es una cita de control? *</h3>
-                                                                
-                                                            </div> 
+
+                                                            </div>
                                                             <div class="col">
                                                                 <select class="form-select" aria-label="Default select example">
                                                                     <option selected>Selecciona una opción</option>
@@ -229,24 +228,24 @@
                                                             <br>
                                                         </div>
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-                                                                
+
                                                                 <h3>¿Con qué doctor le gustaría agendar? *</h3>
-                                                                
-                                                            </div> 
+
+                                                            </div>
                                                             <div class="col">
-                                                                    
+
                                                                     <select class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona un doctor</option>
                                                                         <option value="6">Cualquier Doctor disponible</option>
@@ -260,22 +259,22 @@
                                                             <br>
                                                         </div>
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-                                                                
+
                                                                 <h3>¿Qué día y hora desea Agendar? *</h3>
-                                                                
-                                                            </div> 
+
+                                                            </div>
                                                             <div class="col">
                                                                     <!--Holis quisiera poner un date picker aqui-->
                                                                     <div class="bootstrap-iso bg-secondary text-light">
@@ -294,31 +293,31 @@
                                                                         <div class="btn-group text-light" role="group" aria-label="Basic radio toggle button group">
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                                                                                 <label class="btn btn-outline-light" for="btnradio1">7:00a.m.</label>
-                                                                                
+
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                                                                                 <label class="btn btn-outline-light" for="btnradio2">9:30a.m.</label>
-                                                                            
+
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                                                                                 <label class="btn btn-outline-light" for="btnradio3">12:00p.m.</label>
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" checked>
                                                                                 <label class="btn btn-outline-light" for="btnradio4">1:00p.m.</label>
-                                                                                
+
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
                                                                                 <label class="btn btn-outline-light" for="btnradio5">1:30p.m.</label>
                                                                             </div>
                                                                     </div>
-                                                                    
-                                                                        
+
+
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        
+
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary ">
                                                 <div class="container text-light" id="Agenda_Box">
@@ -329,15 +328,15 @@
                                                     <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Agendar Cita
                                                     </button>
-                                
-                                
+
+
                                                 </div>
-                                                    
+
                                             </div>
                                         </div>
 
                                     </div>
-                                    
+
 
                                     <a class="carousel-control-prev" href="#my-carousel" data-slide="prev" role="button">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -349,9 +348,9 @@
                                     </a>
 
                                 </div>
-                                
+
                             </div>
-                            
+
                         </form>
 
                         </div>
