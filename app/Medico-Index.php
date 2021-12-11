@@ -33,13 +33,9 @@
                 <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
                 <div class="navbar-nav">
                     <div class="nav-item text-nowrap">
-                        <a class="nav-link px-3" href="#">Cerrar Sesión</a>
+                        <a class="nav-link px-3" href="index.php">Cerrar Sesión</a>
                     </div>
-<<<<<<< HEAD
                 </div>
-=======
-                </div> 
->>>>>>> dfb2f331c12d97526460f49b33465d553d4edcef
             </header>
         </div>
 
