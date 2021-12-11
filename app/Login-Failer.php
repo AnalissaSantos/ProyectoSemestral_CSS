@@ -53,7 +53,7 @@
         <div class="row justify-content-center" style="margin-top:5%">
 <!--            <form class="col-3" method="POST" action="Login-UserVerificacion.php">-->
                 <h2>Usuario no encontrado</h2>
-                <a href="Login-Index.php"><button class="btn btn-primary">Regresar</button></a>
+                <a onclick="history.back()"><button class="btn btn-primary">Regresar</button></a>
         </div>
 <!--            </form>-->
         </div>

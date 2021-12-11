@@ -1,5 +1,5 @@
 <?php
-@$conexion=mysqli_connect("localhost","id18102313_root",">H0QHyiWl%%(5Ayl","id18102313_citawebdb");
+@$conexion=mysqli_connect("mysql","root","secret","CitaWebDB");
 /*if ($conexion){
     print "Conexion BD exitosa";
 }else{

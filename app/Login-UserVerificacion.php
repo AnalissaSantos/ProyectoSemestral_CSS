@@ -15,7 +15,7 @@
            header("Location:VistaAdministrador/Admin-PolicHome.php");
         }
     }else{
-        require_once ("Login-Failer.php");
+        header("Location:Login-Failer.php");
     }
 ?>
 
