@@ -37,7 +37,7 @@
         <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
         <div class="navbar-nav">
             <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="#">Cerrar Sesión</a>
+            <a class="nav-link px-3" href="Index.html">Cerrar Sesión</a>
             </div>
         </div>
     </header>
@@ -84,8 +84,9 @@
                     <hr>
                     
                     <section>
+                        <form action="index.php">
 
-                        <form action="index.php" method="post">
+                            
                             <div class" id="my-carousel" class="carousel carousel-dark slide carousel-fade" data-bs-touch="false"  data-interval="false">
                                 <ol class="carousel-indicators">
                                     <li class="active" data-target="#my-carousel" data-slide-to="0" ></li>
@@ -99,9 +100,9 @@
 
                                 </ol>
                                 <div class="carousel-inner mh-100">
-
+                                    
                                     <div class="carousel-item active">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary ">
                                                 <div class="container text-light" id="Agenda_Box">
@@ -110,49 +111,51 @@
                                                     <h3>¡Empezemos!</h3> <br>
                                                     <p>Para iniciar selecciona la flecha derecha</p>
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
 
                                     </div>
 
+                                    
                                     <div class="carousel-item ">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-
+                                                                
                                                                 <h3>Introduzca o Verifique su correo electrónico *</h3>
-
-                                                            </div>
+                                                                
+                                                            </div> 
                                                             <div class="col">
-                                                                    <input type="email" class="form-control" placeholder="ejemplo@css.com" aria-describedby="basic-addon2" required>
+                                                                    <input type="email" name="email" class="form-control" placeholder="ejemplo@css.com" aria-describedby="basic-addon2" required>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class=" d-flex align-items-center text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2 ">
                                                             <br>
                                                             <div class="col">
-
+                                                                
                                                                 <h3>¿En qué policlínica le gustaría agendar? *</h3>
-
-                                                            </div>
+                                                                
+                                                            </div> 
                                                             <div class="col">
-
-                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    
+                                                                    <select name="formPoliclinic" class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona una policlínica</option>
                                                                         <option value="1">Manuel María Valdés</option>
                                                                         <option value="2">Dr. Manuel Ferrer Valdés</option>
@@ -160,29 +163,30 @@
                                                                         <option value="4">Dr. Carlos N  Brin</option>
                                                                         <option value="5">Generoso Guardia</option>
                                                                     </select>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-
+                                                                
                                                                 <h3>¿Con qué especialidad le gustaría agendar? *</h3>
-
-                                                            </div>
+                                                                
+                                                            </div> 
                                                             <div class="col">
-
-                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    
+                                                                    <select name="formEspecialidad" class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona una especialidad</option>
                                                                         <option value="1">Medicina General</option>
                                                                         <option value="2">Oncología</option>
@@ -190,63 +194,65 @@
                                                                         <option value="4">Cardiología</option>
                                                                         <option value="5">Odontología</option>
                                                                         <option value="6">Otorrinolaringología</option>
-
                                                                     </select>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-
+                                                                
                                                                 <h3>¿Es una cita de control? *</h3>
-
-                                                            </div>
+                                                                
+                                                            </div> 
                                                             <div class="col">
-                                                                <select class="form-select" aria-label="Default select example">
+                                                                <select name="formCitaControl" class="form-select" aria-label="Default select example">
                                                                     <option selected>Selecciona una opción</option>
                                                                     <option value="1">Sí</option>
                                                                     <option value="2">No</option>
                                                                 </select>
+                                                                    
                                                                 <!--poner un if aqui seria cool para controlar eso dq if sí entonces que aparezca abajo-->
                                                                 <br><label class="form-label"><H4>Introduzca el número de referencia</H4></label>
-                                                                <input type="text" class="form-control" placeholder="ABC-000-123" required>
+                                                                <input name="formNumReferencia" type="text" class="form-control" placeholder="ABC-000-123" required>
                                                                 <div class="form-text text-light">
                                                                     El número en la perte superior derecha de la referencia médica.
                                                                 </div>
+
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-
+                                                                
                                                                 <h3>¿Con qué doctor le gustaría agendar? *</h3>
-
-                                                            </div>
+                                                                
+                                                            </div> 
                                                             <div class="col">
-
-                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    
+                                                                    <select name="formMedics" class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona un doctor</option>
                                                                         <option value="6">Cualquier Doctor disponible</option>
                                                                         <option value="1">Dra. Ana Saa </option>
@@ -255,26 +261,27 @@
                                                                         <option value="4">Dr. Shoto Todoroki</option>
                                                                         <option value="5">Dra. Margareth Peacock</option>
                                                                     </select>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item ">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary">
                                                 <div class="d-flex align-items-center  text-light" id="Agenda_Box">
                                                         <div class="row row-cols-1  row-cols-md-2">
                                                             <br>
                                                             <div class="col">
-
+                                                                
                                                                 <h3>¿Qué día y hora desea Agendar? *</h3>
-
-                                                            </div>
+                                                                
+                                                            </div> 
                                                             <div class="col">
                                                                     <!--Holis quisiera poner un date picker aqui-->
                                                                     <div class="bootstrap-iso bg-secondary text-light">
@@ -287,37 +294,37 @@
                                                                                     <div class="input-group-addon">
                                                                                         <i class="fa fa-calendar"> </i>
                                                                                     </div>
-                                                                                    <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text"/>
+                                                                                    <input class="form-control" id="date" name="formDiaCita" placeholder="DD/MM/YYYY" type="text"/>
                                                                                 </div>
                                                                             </div>
                                                                         <div class="btn-group text-light" role="group" aria-label="Basic radio toggle button group">
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                                                                                 <label class="btn btn-outline-light" for="btnradio1">7:00a.m.</label>
-
+                                                                                
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                                                                                 <label class="btn btn-outline-light" for="btnradio2">9:30a.m.</label>
-
+                                                                            
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                                                                                 <label class="btn btn-outline-light" for="btnradio3">12:00p.m.</label>
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" checked>
                                                                                 <label class="btn btn-outline-light" for="btnradio4">1:00p.m.</label>
-
+                                                                                
                                                                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
                                                                                 <label class="btn btn-outline-light" for="btnradio5">1:30p.m.</label>
                                                                             </div>
                                                                     </div>
-
-
+                                                                    
+                                                                        
                                                             </div>
                                                             <br>
                                                         </div>
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-
+                                        
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 bg-secondary ">
                                                 <div class="container text-light" id="Agenda_Box">
@@ -325,18 +332,18 @@
                                                     <h4>Revisa la información y cuando estes listo agenda la cita</h4>
                                                     <br>
                                                     <!-- Button trigger modal -->
-                                                    <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button name="submitAgendar" type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Agendar Cita
                                                     </button>
-
-
+                                
+                                
                                                 </div>
-
+                                                    
                                             </div>
                                         </div>
 
                                     </div>
-
+                                    
 
                                     <a class="carousel-control-prev" href="#my-carousel" data-slide="prev" role="button">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -348,11 +355,69 @@
                                     </a>
 
                                 </div>
-
+                                
                             </div>
-
+                            
                         </form>
 
+                        <!---manejo de datos de agendar--->
+                        <!--verificacion correo-->
+                        <?php
+                            echo 'Correo electronico: ' . $_POST['email']  ;
+                        ?>
+                        <!--agendar policlinica-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formPoliclinic'])){
+                                    $policlinics = $_POST['formPoliclinic'];
+                                    echo 'Policlinica seleccionada: ' . $policlinics; 
+                                }else{
+                                    echo 'No ha seleccionado una policlinica';
+                                }
+                            }
+                        ?>
+                        <!--agendar especialidad-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formEspecialidad'])){
+                                    $especialidad = $_POST['formEspecialidad'];
+                                    echo 'Especialidad Seleccionada: ' . $especialidad;
+                                }else{
+                                    echo 'No ha seleccionado una especialidad';
+                                }
+                            }
+                        ?>
+                        <!--cita de control-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formCitaControl'])){
+                                    $citaControl = $_POST['formCitaControl'];
+                                    echo 'Tipo de cita seleccionado: ' . $citaControl;
+                                }else{
+                                    echo 'Seleccione un tipo de cita';
+                                }
+                            }
+                        ?>
+                        <?php
+                            echo 'Numero de referencia: ' . $_POST['formNumReferencia'] ;
+                        ?>
+
+                        <!--doctor-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formMedics'])){
+                                    $doctor = $_POST['formMedics'];
+                                    echo 'Doctor seleccionado: ' . $doctor;
+                                }else{
+                                    echo 'Seleccione un doctor';
+                                }
+                            }
+                        ?>
+
+                        <!-- agendar dia y hora -->
+                        <?php
+                            echo 'Cita asignada: ' . $_POST['formDiaCita'] ;
+                        ?>
                         </div>
                     </section>
             </div>

@@ -15,7 +15,6 @@
         
         <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
         <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
-
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="css/Styles.css">
@@ -23,7 +22,6 @@
         <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
         
     </head>
-
     <body>
         <div class="sticky-top">
             <!--Nav Bar-->
@@ -36,8 +34,6 @@
                 </div>
             </header>
         </div>
-
-
         <!-- Side Bar-->
         
         <div class="d-flex">
@@ -57,7 +53,6 @@
                 
             </div>
         </div>
-
         <!--contenido-->
         <div id ="content" class="bg-grey w-100">
         <section class="bg-light py-3">
@@ -73,7 +68,6 @@
                         <p class="lead text-muted">Beneficiaria de la asegurada: "Katherine Pierce"</p>
                     
                     </div>
-
                     <div class="container ">
                 <div class=" bg-secondary text-light" id= "Proxima_Cita">
                     <h3 class="">Su Próxima Cita es:</h3>
@@ -82,7 +76,6 @@
                     <p>Especialidad: <b>Medicina General</b></p>
                     <p>Policlínica: <b>Manuel María Valdés</b></p>
                     </div>
-
                     <div class="col-sm-6">
                         <p>Hora: <b>7:00a.m.</b></p>
                         <p>Fecha: <b>24 de noviembre 2021</b></p>
@@ -225,30 +218,16 @@
             </div>
             
         </section>
-
             <div class="container">
         </div>   
-        <section>
-                <footer class="page-footer font-small flex-md-nowrap p-0 shadow">
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-4 text-light bg-primary ">© 2020 Copyright:
-                    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-                </div>
-                <!-- Copyright -->
-
-                </footer>
-        </section>
+    
     </div>
-
     </div>
     
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <!-- Footer -->
-
 <!-- Footer -->
     </body>
-
-
 </html>
