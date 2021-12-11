@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Icono-->
     <link rel="icon" href="../assets/images/Flavicon.png" sizes="16x16" type="image/png">
@@ -25,7 +25,7 @@
         <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
         <div class="navbar-nav">
             <div class="nav-item text-nowrap">
-                <a class="nav-link px-3" href="../home.html">Cerrar Sesión</a>
+                <a class="nav-link px-3" href="../Index.html">Cerrar Sesión</a>
             </div>
         </div>
     </header>
@@ -118,15 +118,6 @@
         </form>
     </section>
 
-    <!--Footer-->
-    <section class="Footer-">
-        <footer class="page-footer font-small flex-md-nowrap p-0 shadow">
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-4 text-light bg-primary ">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-            </div>
-            <!-- Copyright -->
-        </footer>
-    </section>
+    
 </body>
 </html>

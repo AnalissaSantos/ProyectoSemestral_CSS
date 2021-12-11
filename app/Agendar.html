@@ -37,7 +37,7 @@
         <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
         <div class="navbar-nav">
             <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="#">Cerrar Sesión</a>
+            <a class="nav-link px-3" href="Index.html">Cerrar Sesión</a>
             </div>
         </div>
     </header>
@@ -84,7 +84,11 @@
                     <hr>
                     
                     <section>
-                        <form action="index.html">
+
+                        <!--
+                            recuperacion de datos de texto con _POST para el form del carrusel
+                        -->
+                        <form action="index.html" method="post" target="_blank">
 
                             
                             <div class" id="my-carousel" class="carousel carousel-dark slide carousel-fade" data-bs-touch="false"  data-interval="false">
@@ -117,6 +121,7 @@
 
                                     </div>
 
+                                    
                                     <div class="carousel-item ">
                                         
                                         <div class="row justify-content-center">
@@ -130,7 +135,8 @@
                                                                 
                                                             </div> 
                                                             <div class="col">
-                                                                    <input type="email" class="form-control" placeholder="ejemplo@css.com" aria-describedby="basic-addon2" required>
+                                                                    <input type="email" name="email" class="form-control" placeholder="ejemplo@css.com" aria-describedby="basic-addon2" required>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
@@ -153,7 +159,7 @@
                                                             </div> 
                                                             <div class="col">
                                                                     
-                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    <select name="formPoliclinic" class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona una policlínica</option>
                                                                         <option value="1">Manuel María Valdés</option>
                                                                         <option value="2">Dr. Manuel Ferrer Valdés</option>
@@ -161,6 +167,7 @@
                                                                         <option value="4">Dr. Carlos N  Brin</option>
                                                                         <option value="5">Generoso Guardia</option>
                                                                     </select>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
@@ -183,7 +190,7 @@
                                                             </div> 
                                                             <div class="col">
                                                                     
-                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    <select name="formEspecialidad" class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona una especialidad</option>
                                                                         <option value="1">Medicina General</option>
                                                                         <option value="2">Oncología</option>
@@ -191,8 +198,8 @@
                                                                         <option value="4">Cardiología</option>
                                                                         <option value="5">Odontología</option>
                                                                         <option value="6">Otorrinolaringología</option>
-
                                                                     </select>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
@@ -214,17 +221,19 @@
                                                                 
                                                             </div> 
                                                             <div class="col">
-                                                                <select class="form-select" aria-label="Default select example">
+                                                                <select name="formCitaControl" class="form-select" aria-label="Default select example">
                                                                     <option selected>Selecciona una opción</option>
                                                                     <option value="1">Sí</option>
                                                                     <option value="2">No</option>
                                                                 </select>
+                                                                    
                                                                 <!--poner un if aqui seria cool para controlar eso dq if sí entonces que aparezca abajo-->
                                                                 <br><label class="form-label"><H4>Introduzca el número de referencia</H4></label>
-                                                                <input type="text" class="form-control" placeholder="ABC-000-123" required>
+                                                                <input name="formNumReferencia" type="text" class="form-control" placeholder="ABC-000-123" required>
                                                                 <div class="form-text text-light">
                                                                     El número en la perte superior derecha de la referencia médica.
                                                                 </div>
+
                                                             </div>
                                                             <br>
                                                         </div>
@@ -247,7 +256,7 @@
                                                             </div> 
                                                             <div class="col">
                                                                     
-                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    <select name="formMedics" class="form-select" aria-label="Default select example">
                                                                         <option selected>Selecciona un doctor</option>
                                                                         <option value="6">Cualquier Doctor disponible</option>
                                                                         <option value="1">Dra. Ana Saa </option>
@@ -256,6 +265,7 @@
                                                                         <option value="4">Dr. Shoto Todoroki</option>
                                                                         <option value="5">Dra. Margareth Peacock</option>
                                                                     </select>
+                                                                    
                                                             </div>
                                                             <br>
                                                         </div>
@@ -288,7 +298,7 @@
                                                                                     <div class="input-group-addon">
                                                                                         <i class="fa fa-calendar"> </i>
                                                                                     </div>
-                                                                                    <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text"/>
+                                                                                    <input class="form-control" id="date" name="formDiaCita" placeholder="DD/MM/YYYY" type="text"/>
                                                                                 </div>
                                                                             </div>
                                                                         <div class="btn-group text-light" role="group" aria-label="Basic radio toggle button group">
@@ -326,7 +336,7 @@
                                                     <h4>Revisa la información y cuando estes listo agenda la cita</h4>
                                                     <br>
                                                     <!-- Button trigger modal -->
-                                                    <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button name="submitAgendar" type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Agendar Cita
                                                     </button>
                                 
@@ -354,6 +364,64 @@
                             
                         </form>
 
+                        <!---manejo de datos de agendar--->
+                        <!--verificacion correo-->
+                        <?php
+                            echo 'Correo electronico: ' . $_POST['email']  ;
+                        ?>
+                        <!--agendar policlinica-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formPoliclinic'])){
+                                    $policlinics = $_POST['formPoliclinic'];
+                                    echo 'Policlinica seleccionada: ' . $policlinics; 
+                                }else{
+                                    echo 'No ha seleccionado una policlinica';
+                                }
+                            }
+                        ?>
+                        <!--agendar especialidad-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formEspecialidad'])){
+                                    $especialidad = $_POST['formEspecialidad'];
+                                    echo 'Especialidad Seleccionada: ' . $especialidad;
+                                }else{
+                                    echo 'No ha seleccionado una especialidad';
+                                }
+                            }
+                        ?>
+                        <!--cita de control-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formCitaControl'])){
+                                    $citaControl = $_POST['formCitaControl'];
+                                    echo 'Tipo de cita seleccionado: ' . $citaControl;
+                                }else{
+                                    echo 'Seleccione un tipo de cita';
+                                }
+                            }
+                        ?>
+                        <?php
+                            echo 'Numero de referencia: ' . $_POST['formNumReferencia'] ;
+                        ?>
+
+                        <!--doctor-->
+                        <?php
+                            if(isset($_POST['submitAgendar'])){
+                                if(!empty($_POST['formMedics'])){
+                                    $doctor = $_POST['formMedics'];
+                                    echo 'Doctor seleccionado: ' . $doctor;
+                                }else{
+                                    echo 'Seleccione un doctor';
+                                }
+                            }
+                        ?>
+
+                        <!-- agendar dia y hora -->
+                        <?php
+                            echo 'Cita asignada: ' . $_POST['formDiaCita'] ;
+                        ?>
                         </div>
                     </section>
             </div>
