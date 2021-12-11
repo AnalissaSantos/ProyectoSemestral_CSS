@@ -6,7 +6,7 @@
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="assets/images/Flavicon.png" sizes="16x16" type="image/png"> 
+        <link rel="icon" href="assets/images/Flavicon.png" sizes="16x16" type="image/png">
         <title>Caja del Seguro Social | Dashboard </title>
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
         <!--links carrusel-->
@@ -15,7 +15,6 @@
         
         <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
         <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
-
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="css/Styles.css">
@@ -23,7 +22,6 @@
         <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
         
     </head>
-
     <body>
         <div class="sticky-top">
             <!--Nav Bar-->
@@ -31,13 +29,11 @@
                 <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
                 <div class="navbar-nav">
                     <div class="nav-item text-nowrap">
-                        <a class="nav-link px-3" href="Index.html">Cerrar Sesión</a>
+                        <a class="nav-link px-3" href="home.html">Cerrar Sesión</a>
                     </div>
                 </div>
             </header>
         </div>
-
-
         <!-- Side Bar-->
         
         <div class="d-flex">
@@ -49,7 +45,7 @@
                 </div>
                 
                 <div class="container" id="menu1">
-                <a href="Index.html"class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+                <a href="Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                     Dashboard</a>
                 <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
                 Configuración</a>
@@ -57,7 +53,6 @@
                 
             </div>
         </div>
-
         <!--contenido-->
         <div id ="content" class="bg-grey w-100">
         <section class="bg-light py-3">
@@ -73,7 +68,6 @@
                         <p class="lead text-muted">Beneficiaria de la asegurada: "Katherine Pierce"</p>
                     
                     </div>
-
                     <div class="container ">
                 <div class=" bg-secondary text-light" id= "Proxima_Cita">
                     <h3 class="">Su Próxima Cita es:</h3>
@@ -82,7 +76,6 @@
                     <p>Especialidad: <b>Medicina General</b></p>
                     <p>Policlínica: <b>Manuel María Valdés</b></p>
                     </div>
-
                     <div class="col-sm-6">
                         <p>Hora: <b>7:00a.m.</b></p>
                         <p>Fecha: <b>24 de noviembre 2021</b></p>
@@ -225,21 +218,16 @@
             </div>
             
         </section>
-
             <div class="container">
         </div>   
-        
+    
     </div>
-
     </div>
     
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <!-- Footer -->
-
 <!-- Footer -->
     </body>
-
-
 </html>

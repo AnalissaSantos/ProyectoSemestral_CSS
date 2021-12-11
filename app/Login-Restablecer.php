@@ -1,17 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="h-100">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restablecer</title>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Personal | Login</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <div class="row justify-content-md-center" style="margin-top:15%">
-            <form class="col-3" action="restablecer.php" method="POST">
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+</style>
+
+
+<!-- Custom styles for this template -->
+<body class="d-flex h-100 text-center text-white" style="background-image: url(assets/images/background.png);">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <div class="row justify-content-md-center" style="margin-top:15%">
+            <form class="col-3" action="Login-Restablecer.php" method="POST">
                 <h2>Restablecer Password</h2>
                 <div class="mb-3">
                     <label for="c" class="form-label">Email</label>
@@ -36,7 +62,7 @@
                             </div>
                             <div class="modal-footer">
 <!--                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
-                                <a href="Login-Index.html"><button type="button" class="btn btn-primary">Okay</button></a>
+                                <a href="Login-Index.php"><button type="button" class="btn btn-primary">Okay</button></a>
                             </div>
                         </div>
                     </div>
