@@ -8,9 +8,7 @@ services:
           - ./MySQL:/var/lib/mysql
         restart: unless-stopped
         environment:
-          - MYSQL_ROOT_PASSWORD=secret
-          - MYSQL_USER=mendez
-          - MYSQL_PASSWORD=citawebdb
+          - MYSQL_ROOT_PASSWORD=citawebdb
         ports:
           - "3307:3306"
         expose: 

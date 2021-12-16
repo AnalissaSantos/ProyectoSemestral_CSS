@@ -1,6 +1,6 @@
-/*CREATE DATABASE CitaWebDB;
+# CREATE DATABASE CitaWebDB;
 
-use CitaWebDB;*/
+# use CitaWebDB;
 
 CREATE TABLE Paciente (
     N_CedulaPaciente VARCHAR(20) NOT NULL,

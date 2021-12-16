@@ -17,11 +17,17 @@ VALUES
 
 INSERT INTO Especialidad (Nombre_Espec)
 VALUES
-  ("Medicina General"),
-  ("Cardiología"),
-  ("Pediatría"),
-  ("Ortopedia"),
-  ("Psiquiatría");
+    ("Medicina General"),
+    ("Cardiología"),
+    ("Pediatría"),
+    ("Ortopedia"),
+    ("Psiquiatría"),
+    ("Relleno"),
+    ("Oncología"),
+    ("Relleno"),
+    ("Relleno"),
+    ("Odontología"),
+    ("Otorrinolaringología");
 
 
 INSERT INTO Referencia (N_CedulaPaciente,ID_Especialidad,Descripcion_Ref)
@@ -39,7 +45,12 @@ VALUES
   ("Roth Norton","Ap #755-3669 Turpis Avenue"),
   ("Eleanor Whitaker","P.O. Box 285, 548 Sagittis Ave"),
   ("Colt York","7465 Egestas. Avenue"),
-  ("Nathaniel Golden","481-5325 Semper, St.");
+  ("Nathaniel Golden","481-5325 Semper, St."),
+  ("Manuel María Valdés","San Miguelito"),
+  ("Dr. Manuel Ferrer Valdés","Rio Abajo"),
+  ("Dr. Joaquín José Vallarino","Chorrera"),
+  ("Dr. Carlos N  Brin","Tocumen"),
+  ("Generoso Guardia","Santa Ana");
 
 
 INSERT INTO Personal (Nombre_Pers,Apellido_Pers,Cedula_Pers,Email_Pers,Contrasena_Pers)
@@ -48,13 +59,22 @@ VALUES
   ("Raja","Andrews","7-3617-9837","raja@google.edu","NKV75CJT2HU"),
   ("Amanda","Herring","3-5372-9563","amanda@icloud.edu","RGA65JYT1QF"),
   ("Oliver","Scott","7-5172-6127","oliver6280@aol.edu","WCZ35DIY1FD"),
-  ("Harrison","Erickson","4-8720-1753","harrison@yahoo.ca","TOO37EHQ4FJ");
+  ("Harrison","Erickson","4-8720-1753","harrison@yahoo.ca","TOO37EHQ4FJ"),
+  ("Ana","Saa","8-964-1448","morbi.quis@hotmail.net","BDZ72GWX5NT"),
+  ("Renné","Rana","7-3617-9836","vitae.dolor.donec@hotmail.com","YDE81USE6EJ"),
+  ("Viktor","Nikifrov","3-5372-9564","id@aol.com","VXP67FNI6YO"),
+  ("Shoto","Todoroki","7-5172-6122","at@google.com","YDX88IIJ4LN"),
+  ("Margareth","Peacock","4-8720-1758","arcu.eu@google.org","YOV61YHZ5DC"),
+  ("José","Méndez","0-000-000","admin@admin","1234567");
 
 INSERT INTO Doctor (ID_Doctor,ID_Personal,ID_Polic,ID_Especialidad)
 VALUES
   ("37fj",1,2,2),
   ("18ko",2,3,1),
-  ("50ie",3,1,5);
+  ("50ie",3,1,5),
+  ("37fg",6,6,7),
+  ("17do",9,9,10),
+  ("19wo",10,10,11);
 
 INSERT INTO Cita_Estado (Nombre_Cita_Est)
 VALUES
