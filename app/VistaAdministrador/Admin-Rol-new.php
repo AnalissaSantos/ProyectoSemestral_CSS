@@ -91,7 +91,7 @@
             </div>
 <!--            Email -->
             <div class="mb-3">
-                <label for="Email_RolInput" class="form-label">Cédula </label>
+                <label for="Email_RolInput" class="form-label">Correo electrónico </label>
                 <input id="Email_RolInput" name="__Email_RolInput" type="email" class="form-control" value="" placeholder="correo@web.com" required>
             </div>
 <!--            Contraseña -->

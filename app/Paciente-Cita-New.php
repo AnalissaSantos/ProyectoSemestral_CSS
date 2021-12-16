@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/AdminStyle.css">
 </head>
 <body>
+
     <!--Nav Bar-->
     <header class="navbar navbar-dark sticky-top bg-secondary flex-md-nowrap p-0 shadow">
         <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
@@ -30,14 +31,14 @@
         </div>
     </header>
 
-    <!-- Side Bar-->
+    <!--Side Bar-->
     <div class="d-flex">
         <div id="sidebar-container" class="bg-primary ">
             <div id="logo">
-                <a href="../home.html"><img src="assets/images/css_logo.png" width="100" height="100"></a>
+                <a href="Admin-PolicHome.php"><img src="../assets/images/css_logo.png" width="100" height="100"></a>
             </div>
             <div class="container" id="menu1">
-                <a href="Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+                <a href="Admin-PolicHome.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                     Dashboard</a>
                 <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
                     Configuración</a>
@@ -58,6 +59,7 @@
 //            <p class="Content-Header__text"><ion-icon class="Content-icon" name="time"></ion-icon> 16:08 PM</p>
             ?>
         </div>
+
 <!--    Encabezado de tabla-->
         <div class="Content-body">
             <div class="Content-body__item-header">
@@ -71,8 +73,9 @@
 <!--                </div>-->
             </div>
         </div>
+
 <!--        Formulario editar información de clinica-->
-        <form method="post">
+        <form method="post" action="Paciente-Cita-Registrar.php">
 <!--            Nombre-->
             <div class="mb-3">
                 <label for="userEmailInput" class="form-label">Correo electrónico </label>
@@ -124,8 +127,8 @@
             </div>
             <br>
             <div>
-                <label for="select_Especialidad" class="form-label">Médico</label>
-                <select class="form-select" aria-label="Default select example" id="select_Especialidad" name="select_Especialidad" required>
+                <label for="select_medico" class="form-label">Médico</label>
+                <select class="form-select" aria-label="Default select example" id="select_Especialidad" name="select_medico" required>
                     <option selected>Selecciona un doctor</option>
                     <option value="0">Cualquier Doctor disponible</option>
                     <option value="6">Dra. Ana Saa </option>
@@ -145,13 +148,12 @@
                 <label for="select_Hora" class="form-label">Hora de la cita </label>
                 <input id="select_Hora" name="select_Hora" type="time" class="form-control"   required>
             </div>
-            <div>
-                <button style="margin: 0em 1em 3em 0em" type="submit" class="btn btn-primary">Submit</button>
-                <a onclick="history.back()"><button style="margin: 0em 0em 3em 1em" type="button" class="btn btn-primary">Cancelar</button></a>
+            <div style="margin: 0em 0em 3em 0em">
+                <button style="margin: 0em 1em 0em 0em" type="submit" class="btn btn-primary">Enviar</button>
+                <a onclick="history.back()"><button style="margin: 0em 0em 0em 1em" type="button" class="btn btn-primary">Cancelar</button></a>
             </div>
         </form>
     </section>
 
-    
 </body>
 </html>
