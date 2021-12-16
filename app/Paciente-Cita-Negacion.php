@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="es" class="h-100">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,8 +52,9 @@
     <div class="container">
         <div class="row justify-content-center" style="margin-top:10%">
 <!--            <form class="col-3" method="POST" action="Login-UserVerificacion.php">-->
-                <h2>Usuario no encontrado</h2>
-                <a style="margin-top: 1em" onclick="history.back()"><button class="btn btn-primary">Regresar</button></a>
+                <h2>Ocurrión un error en el registro</h2>
+                <p>vuelva a completar el formulario, desculpe el inconveniente.</p>
+                <a style="margin-top: 1em" onclick="history.back()"><button class="btn btn-primary">De acuerdo</button></a>
         </div>
 <!--            </form>-->
         </div>

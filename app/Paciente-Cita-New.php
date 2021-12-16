@@ -38,7 +38,7 @@
                 <a href="Admin-PolicHome.php"><img src="../assets/images/css_logo.png" width="100" height="100"></a>
             </div>
             <div class="container" id="menu1">
-                <a href="Admin-PolicHome.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
+                <a href="Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                     Dashboard</a>
                 <a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
                     Configuración</a>
@@ -64,7 +64,7 @@
         <div class="Content-body">
             <div class="Content-body__item-header">
                 <div>
-                    <p class="Content-body__text-h1">Programar cita</p>
+                    <p class="Content-body__text-h1">Agendar Cita</p>
                     <p class="Content-body__text-p">Digitar la información requerida</p>
                 </div>
 <!--                <div>-->
@@ -75,7 +75,7 @@
         </div>
 
 <!--        Formulario editar información de clinica-->
-        <form method="post" action="Paciente-Cita-Registrar.php">
+        <form method="post" action="Paciente-Cita-DB-Registrar.php">
 <!--            Nombre-->
             <div class="mb-3">
                 <label for="userEmailInput" class="form-label">Correo electrónico </label>

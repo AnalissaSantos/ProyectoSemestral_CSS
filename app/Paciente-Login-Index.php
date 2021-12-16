@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="es" class="h-100">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,7 +51,7 @@
             <!--Formulario -->
                 <div class="container">
                     <div class="row justify-content-md-center" style="margin-top:5%">
-                        <form class="col-3" method="POST" action="Paciente-UserVerificacion.php">
+                        <form class="col-3" method="POST" action="Paciente-User-DB-Verificacion.php">
                             <h2>Identificarse</h2>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Número de cédula</label>

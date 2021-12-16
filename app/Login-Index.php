@@ -51,7 +51,7 @@
             <!--Formulario -->
                 <div class="container">
                     <div class="row justify-content-md-center" style="margin-top:5%">
-                        <form class="col-3" method="POST" action="Login-UserVerificacion.php">
+                        <form class="col-3" method="POST" action="Login-DB-User-Verificacion.php">
                             <h2>Iniciar Sesión</h2>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Correo Electronido</label>
