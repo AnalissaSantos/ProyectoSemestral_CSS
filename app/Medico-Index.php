@@ -57,7 +57,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="medicoAgenda.php">
+                                <a class="nav-link text-light" href="Medico-Agenda.php">
                                     <span data-feather="file"></span>
                                     <i class="icon ion-md-settings lead mr-2"></i>
                                     Agenda

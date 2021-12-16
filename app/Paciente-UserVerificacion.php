@@ -6,7 +6,7 @@
         where N_CedulaPaciente='$Cedu' 
         and Date_Nacimiento_Pac='$nac'")or die($conexion->error);
     if( mysqli_num_rows($res) > 0 ){
-        header("Location:Paciente-Citanew.php");
+        header("Location:Paciente-Cita-New.php");
     }else{
         header("Login-Failer.php");
     }

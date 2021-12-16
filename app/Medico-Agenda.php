@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="assets/images/Flavicon.png" sizes="16x16" type="image/png"> 
 
-    <title>Caja del Seguro Social | Dashboard </title>
+    <title>Caja del Seguro Social | Dashboard</title>
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <!--links carrusel-->
