@@ -17,7 +17,7 @@ function dataNamePaciente($conexion,$_cedula)
     return $salidaPantalla;
 }
 
-
+//Vizualiza unicamente la proxima cita
 function proxCita($conexion,$_cedula)
 {
     $sql="SELECT Nombre_Espec, Nombre_Polic, Fecha_Cita, hora_cita
@@ -38,7 +38,7 @@ function proxCita($conexion,$_cedula)
     $Hora=$output['hora_cita'];
     return array($Espec,$Polic,$Fecha,$Hora);
 }
-
+//Vizualiza todas las citas de una persona x
 function proxListCita($conexion,$_cedula)
 {
     $sql="SELECT N_Cita,Nombre_Espec, Nombre_Polic, Fecha_Cita, hora_cita
@@ -70,7 +70,7 @@ function proxListCita($conexion,$_cedula)
     }
 }
 
-
+//Vizualiza la cita a borrar
 function predeleteCita($conexion, $numCita)
     {
         $sql="SELECT Nombre_Espec, Nombre_Polic, Fecha_Cita, hora_cita
@@ -99,7 +99,7 @@ function predeleteCita($conexion, $numCita)
         echo "</div>";
     }
 
-
+//Borra la cita selecionada
 function deleteCita($conexion, $numCita)
 {
     $sql="DELETE FROM Cita WHERE N_Cita='$numCita';";
