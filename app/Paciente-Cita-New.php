@@ -30,8 +30,6 @@
             <?php
                 $hoy=date("Y-m-d");
                 $time= date("h:i");
-//            <p class="Content-Header__text"><ion-icon class="Content-icon" name="calendar"></ion-icon> 16 Sept 2021</p>
-//            <p class="Content-Header__text"><ion-icon class="Content-icon" name="time"></ion-icon> 16:08 PM</p>
             ?>
         </div>
 

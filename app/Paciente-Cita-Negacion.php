@@ -53,7 +53,7 @@
         <div class="row justify-content-center" style="margin-top:10%">
 <!--            <form class="col-3" method="POST" action="Login-UserVerificacion.php">-->
                 <h2>Ocurrión un error en el registro</h2>
-                <p>vuelva a completar el formulario, desculpe el inconveniente.</p>
+                <p>vuelva a completar el formulario, disculpe el inconveniente.</p>
                 <a style="margin-top: 1em" onclick="history.back()"><button class="btn btn-primary">De acuerdo</button></a>
         </div>
 <!--            </form>-->
