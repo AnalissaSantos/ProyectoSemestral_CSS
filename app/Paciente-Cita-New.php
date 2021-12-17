@@ -28,8 +28,8 @@
         <div class="text-center Content-Header">
             <h1 class="Content-Header__textH1">Citas Medicas</h1>
             <?php
-                $Date= date('m-d-Y',time());
-                $time= date("h:i:s a", time())
+                $hoy=date("Y-m-d");
+                $time= date("h:i");
 //            <p class="Content-Header__text"><ion-icon class="Content-icon" name="calendar"></ion-icon> 16 Sept 2021</p>
 //            <p class="Content-Header__text"><ion-icon class="Content-icon" name="time"></ion-icon> 16:08 PM</p>
             ?>
@@ -116,12 +116,16 @@
             <br>
             <div class="mb-3">
                 <label for="select_DiaCita" class="form-label">Dia de la cita </label>
-                <input id="select_DiaCita" name="select_DiaCita" type="date" class="form-control"   required>
+                <?php
+                    echo "<input id='select_DiaCita' name='select_DiaCita' type='date' class='form-control' min='$hoy'required>"
+                ?>
             </div>
             <br>
             <div class="mb-3">
                 <label for="select_Hora" class="form-label">Hora de la cita </label>
-                <input id="select_Hora" name="select_Hora" type="time" class="form-control"   required>
+                <?php
+                    echo "<input id='select_Hora' name='select_Hora' type='time' class='form-control'  min='$time' required>"
+                ?>
             </div>
             <div style="margin: 0em 0em 3em 0em">
                 <button style="margin: 0em 1em 0em 0em" type="submit" class="btn btn-primary">Enviar</button>

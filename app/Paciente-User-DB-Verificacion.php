@@ -16,7 +16,12 @@
 //        Redirecciona y mantiene sesion
         $_SESSION["pacCedula"]=$Cedu;
         $_SESSION["pacNacimiento"]=$nac;
-        header("Location: Paciente-Cita-New.php");
+        if($_SESSION['modePaciente']=!0)
+        {
+            header("Location: Paciente-Cita-New.php");
+        }else{
+            header("Location: Paciente-Index.php");
+        }
     }else{
         header("Location: Login-Failer.php");
     }

@@ -1,11 +1,17 @@
-<? session_abort()?>
+<?
+    /*Limpia*/
+    session_abort();
+    /*Inicia nueva sesion*/
+    session_start();
+?>
+
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="es" class="h-100">
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Cover Template · Bootstrap v5.1</title>
+    <title>CSS Home</title>
 
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -66,19 +72,19 @@
                             <div class="collapse navbar-collapse" id="mynavbar">
                             <ul class="navbar-nav me-auto">
                                 <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Inicio</a>
+                                <a class="nav-link" href="javascript:void(0)"><button type="button" class="btn btn-link nav-link">Inicio</button> </a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Agendar Cita</a>
+                                <a class="nav-link" href="javascript:void(0)"><button type="button" class="btn btn-link nav-link">Agendar Cita</button> </a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Verificar Citas</a>
+                                <a class="nav-link" href="Paciente-Login-Index.php"><button type="button" class="btn btn-link nav-link" value="<? $_SESSION['modePaciente']=0;?>">Verificar Citas</button></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0)">Ayuda al Beneficiario</a>
+                                    <a class="nav-link" href="javascript:void(0)"><button type="button" class="btn btn-link nav-link">Ayuda Beneficiario</button></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0)">Policlínicas</a>
+                                    <a class="nav-link" href="javascript:void(0)"><button type="button" class="btn btn-link nav-link">Policlínicas</button> </a>
                                 </li>
                             </ul>
                             
@@ -92,7 +98,7 @@
                 <h1>Agenda tus citas hoy</h1>
                 <p class="lead">La nueva vía para agendar tus citas en policlínicas del Seguro Social. Ahora podrás agendar tus citas de forma rápida y sin demora. </p>
                 <p class="lead">
-                <a href="Paciente-Login-Index.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Agendar Cita</a>
+                <a href="Paciente-Login-Index.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white"><button type="button" class="btn btn-link" value="<?$_SESSION['modePaciente']=1;?>">Agendar Cita</button></a>
                 </p>
             </main>
 
@@ -100,8 +106,5 @@
                 <p>Ingeniería Web 1SF131, by Saa, Santos, Martinez, Méndez.</p>
             </footer>
         </div>
-
-
-    
     </body>
 </html>
