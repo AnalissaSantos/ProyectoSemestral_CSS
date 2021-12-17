@@ -102,7 +102,7 @@
 <!--            Id doctor -->
             <div class="mb-3">
                 <label for="DocID_RolInput" class="form-label">Codigo Medico </label>
-                <input id="DocID_RolInput" name="__DocID_RolInput" type="text" class="form-control" value="" placeholder="xxxxx" required>
+                <input id="DocID_RolInput" name="__DocID_RolInput" type="text" class="form-control" value="" placeholder="xxxxx">
             </div>
 <!--            clinica labora-->
             <div class="mb-3">

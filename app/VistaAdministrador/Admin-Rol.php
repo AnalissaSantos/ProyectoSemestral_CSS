@@ -1,3 +1,8 @@
+<?php
+$hoy=date("Y-m-d");
+$time= date("h:i e");
+?>
+
 <!doctype html>
 <html lang="es">
 <head>
@@ -51,8 +56,9 @@
 <!--    Titulo de contenido-->
         <div class="text-center Content-Header">
             <h1 class="Content-Header__textH1"><ion-icon class="Content-icon" name="person"></ion-icon> Administrador</h1>
-            <p class="Content-Header__text"><ion-icon class="Content-icon" name="calendar"></ion-icon> 16 Sept 2021</p>
-            <p class="Content-Header__text"><ion-icon class="Content-icon" name="time"></ion-icon> 16:08 PM</p>
+            <?php
+            echo "<p class='Content-Header__text'><ion-icon class='Content-icon' name='calendar'></ion-icon> $hoy</p>";
+            ?>
         </div>
         <!--    Tabs-->
         <div class="Content-body ">
