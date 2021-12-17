@@ -14,11 +14,11 @@
 //    Valida
     if( mysqli_num_rows($res) > 0 ){
 //        Redirecciona y mantiene sesion
-        header("Location:Paciente-Cita-New.php");
         $_SESSION["pacCedula"]=$Cedu;
         $_SESSION["pacNacimiento"]=$nac;
+        header("Location: Paciente-Cita-New.php");
     }else{
-        header("Login-Failer.php");
+        header("Location: Login-Failer.php");
     }
 
 

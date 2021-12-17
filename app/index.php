@@ -1,3 +1,4 @@
+<? session_abort()?>
 <!doctype html>
 <html lang="en" class="h-100">
     <head>
