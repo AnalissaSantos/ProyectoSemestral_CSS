@@ -41,7 +41,7 @@
         <header class="blog-header py-3 ">
             <div class="row flex-nowrap justify-content-between align-items-center ">
                 <div class="col-4 pt-1">
-                    <a href="index.php"><img src="assets/images/cssbannerlight.png" alt="logo caja seguro social"></a>
+                    <a href=""><img src="assets/images/cssbannerlight.png" alt="logo caja seguro social"></a>
                 </div>
 
             </div>

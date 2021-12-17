@@ -3,7 +3,7 @@
     <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Caja de Seguro Social</a>
     <div class="navbar-nav">
         <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="../Index.html">Cerrar Sesión</a>
+            <a class="nav-link px-3" href="index.php">Cerrar Sesión</a>
         </div>
     </div>
 </header>
@@ -17,6 +17,13 @@
         <div class="container" id="menu1">
             <a href="Paciente-Index.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-home lead mr-2"></i>
                 Mis Citas</a>
+            <!--<a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
+                Configuración</a>-->
+        </div>
+
+        <div class="container" id="menu1">
+            <a href="Paciente-Cita-New.php" class="d-block text-light p-3 border-0"> <ion-icon name="add-circle"></ion-icon>
+                Nueva Cita</a>
             <!--<a href="#"class="d-block text-light p-3 border-0"><i class="icon ion-md-settings lead mr-2"></i>
                 Configuración</a>-->
         </div>

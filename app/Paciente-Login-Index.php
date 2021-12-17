@@ -55,7 +55,7 @@
                             <h2>Identificarse</h2>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Número de cédula</label>
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="pacCedu">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="pacCedu" placeholder="x-xxx-xxx" >
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Fecha de nacimiento</label>

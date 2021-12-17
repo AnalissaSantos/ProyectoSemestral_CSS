@@ -41,7 +41,7 @@ function proxCita($conexion,$_cedula)
 
 function proxListCita($conexion,$_cedula)
 {
-    $sql="SELECT Nombre_Espec, Nombre_Polic, Fecha_Cita, hora_cita
+    $sql="SELECT N_Cita,Nombre_Espec, Nombre_Polic, Fecha_Cita, hora_cita
             from Cita join Especialidad E on E.ID_Especialidad = Cita.ID_Especialidad
             join Policlinica P on P.ID_Polic = Cita.ID_Polic
             where  N_CedulaPaciente='$_cedula'
@@ -59,7 +59,7 @@ function proxListCita($conexion,$_cedula)
         echo "<div class='card'>";
         echo "<div class='card-body'>";
         echo "<div class='d-flex flex-row-reverse' id='button_close'>";
-        echo "<a href='#'> <ion-icon name='close' ></ion-icon> </a>";
+        echo "<form action='Paciente-Cita-Cancelación.php' method='post'><input type='hidden' name='numCita' value='".$output['N_Cita']."'><button type='submit'><ion-icon name='close'></ion-icon></button></form>";
         echo "</div>";
         echo "<h5 class='card-title'>Fecha: ".$output['Fecha_Cita']."</h5>";
         echo "<h6 class='card-text'>Hora: ".$output['hora_cita']."<br>Policlinica: ".$output['Nombre_Polic']."</h6>";
@@ -69,5 +69,34 @@ function proxListCita($conexion,$_cedula)
         echo "</div>";
     }
 }
+
+
+function predeleteCita($conexion, $numCita)
+    {
+        $sql="SELECT Nombre_Espec, Nombre_Polic, Fecha_Cita, hora_cita
+            from Cita join Especialidad E on E.ID_Especialidad = Cita.ID_Especialidad
+            join Policlinica P on P.ID_Polic = Cita.ID_Polic
+            where N_Cita='$numCita';";
+
+        $data=mysqli_query($conexion,$sql);
+        if (!$data) {
+            echo "Error de BD, no se pudo consultar la base de datos\n";
+            echo "Error MySQL: ' . mysql_error()";
+            exit;
+        };
+
+        $output=$data->fetch_assoc();
+        echo "<div class='col-md-4 mb-3'>";
+        echo "<div class='card'>";
+        echo "<div class='card-body'>";
+        echo "<div class='d-flex flex-row-reverse' id='button_close'>";
+        echo "</div>";
+        echo "<h5 style='color: black' class='card-title'>Fecha: ".$output['Fecha_Cita']."</h5>";
+        echo "<h6 style='color: black' class='card-text'>Hora: ".$output['hora_cita']."<br>Policlinica: ".$output['Nombre_Polic']."</h6>";
+        echo "</div>";
+//        echo "<img class='img-fluid' alt='cardiología'  src='assets/images/especialidades/1.png' >";
+        echo "</div>";
+        echo "</div>";
+    }
 
 ?>
