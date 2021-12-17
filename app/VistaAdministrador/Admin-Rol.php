@@ -1,6 +1,8 @@
 <?php
 $hoy=date("Y-m-d");
 $time= date("h:i e");
+include 'Admin-Function.php';
+include '../conexion.php';
 ?>
 
 <!doctype html>
@@ -102,31 +104,7 @@ $time= date("h:i e");
                 </tr>
                 </thead>
                 <tbody>
-                <tr class="table-light">
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td><div class="btn-group" role="group" aria-label="Basic example">
-                        <a href="Admin-Rol-edit.php"><button type="button" class="btn btn-primaryTable"><ion-icon name="create"></ion-icon></button></a>
-                        <button type="button" class="btn btn-primaryTable"><ion-icon name="trash"></ion-icon></button>
-                    </div></td>
-                </tr>
-                <tr class="table-light">
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td><div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-primaryTable"><ion-icon name="create"></ion-icon></button>
-                        <button type="button" class="btn btn-primaryTable"><ion-icon name="trash"></ion-icon></button>
-                    </div></td>
-                </tr>
-                <tr class="table-light">
-                    <td>Mark</td>
-                    <td>Otto</td>
-<!--                    <td><button type="button" class="btn btn-light"><ion-icon name="create"></ion-icon></button></td>-->
-                    <td><div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-primaryTable"><ion-icon name="create"></ion-icon></button>
-                        <button type="button" class="btn btn-primaryTable"><ion-icon name="trash"></ion-icon></button>
-                    </div></td>
-                </tr>
+                    <?php showListPersonal($conexion);?>
                 </tbody>
             </table>
         </div>

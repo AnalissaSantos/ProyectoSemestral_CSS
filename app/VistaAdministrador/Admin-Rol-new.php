@@ -73,7 +73,7 @@ $time= date("h:i e");
             </div>
         </div>
 <!--        Formulario editar información de clinica-->
-        <form method="post" target="_self" action="">
+        <form method="post" target="_self" action="Admin-DB-Insert.php">
 <!--            Nombre-->
             <div class="mb-3">
                 <label for="Nombre_RolInput" class="form-label">Nombre </label>
@@ -115,7 +115,6 @@ $time= date("h:i e");
             <div>
                 <label for="selec_rol" class="form-label">Selecciona el rol al que pertenece</label>
                 <select class="form-select" aria-label="Default select example" id="selec_rol" name="selec_rol"  onchange="showDiv('hidden_div1', this)" required>
-                    <option selected value=0>Selecciona una opción</option>
                     <option value=0>Administrador</option>
                     <option value=1>Medico</option>
                 </select>
@@ -128,9 +127,16 @@ $time= date("h:i e");
             </div>
 
 <!--            clinica labora-->
-            <div class="mb-3">
-                <label for="DocClinic_RolInput" class="form-label">Clinica Asociada </label>
-                <input id="DocClinic_RolInput" name="__DocClinic_RolInput" type="number" class="form-control" value="" placeholder="numero de identificación de la clinica" required>
+            <div>
+                <label for="select_Rol_Policlinic" class="form-label">Policlínica</label>
+                <select class="form-select" aria-label="Default select example" id="select_Rol_Policlinic" name="select_Rol_Policlinic" required>
+                    <option selected>Selecciona una policlínica</option>
+                    <option value="6">Manuel María Valdés</option>
+                    <option value="7">Dr. Manuel Ferrer Valdés</option>
+                    <option value="8">Dr. Joaquín José Vallarino</option>
+                    <option value="9">Dr. Carlos N  Brin</option>
+                    <option value="10">Generoso Guardia</option>
+                </select>
             </div>
 <!--            Enviar cambios-->
             <br>
