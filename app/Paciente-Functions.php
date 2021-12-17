@@ -83,7 +83,7 @@ function predeleteCita($conexion, $numCita)
             echo "Error de BD, no se pudo consultar la base de datos\n";
             echo "Error MySQL: ' . mysql_error()";
             exit;
-        };
+        }
 
         $output=$data->fetch_assoc();
         echo "<div class='col-md-4 mb-3'>";
@@ -99,4 +99,18 @@ function predeleteCita($conexion, $numCita)
         echo "</div>";
     }
 
+
+function deleteCita($conexion, $numCita)
+{
+    $sql="DELETE FROM Cita WHERE N_Cita='$numCita';";
+    $data=mysqli_query($conexion,$sql);
+    if ($data== FALSE) {
+        echo "Error de BD, no se pudo consultar la base de datos\n";
+        echo "Error MySQL: ' . mysql_error()";
+        exit;
+    }else
+    {
+        header("Location: Paciente-Cita-Cancelación-Confirmado.php");
+    };
+}
 ?>

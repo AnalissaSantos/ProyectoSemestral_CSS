@@ -49,10 +49,9 @@
         <div class="container">
             <div class="row justify-content-center" style="margin-top:5%">
                 <!--            <form class="col-3" method="POST" action="Login-UserVerificacion.php">-->
-                <h2>¿Desea cancelar esta cita?</h2>
-                <p>Luego de aceptar se anulará la misma</p>
-                <?predeleteCita($conexion,$numeroCita);?>
-                <a style="margin: 1em 0em 0em 7em" href="Paciente-Index.php"><button value="" class="btn btn-primary">Sí Cancelar</button></a>
+                <h2>Su cita se canceló</h2>
+                <p>Recibirá un email con la confirmación</p>
+                <a href="Paciente-Index.php"><button value="" class="btn btn-primary">Vale!</button></a>
             </div>
             <!--            </form>-->
         </div>

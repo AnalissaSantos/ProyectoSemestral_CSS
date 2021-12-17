@@ -54,7 +54,7 @@
                 <?predeleteCita($conexion,$numeroCita);?>
                 <div style="display: inline">
                     <a style="margin: 1em 7em 0em 0em" onclick="history.back()"><button class="btn btn-primary">Regresar</button></a>
-                    <a style="margin: 1em 0em 0em 7em" href="Paciente-Index.php"><button value="" class="btn btn-primary">Sí Cancelar</button></a>
+                    <a style="margin: 1em 0em 0em 7em" href="Paciente-Cita-Cancelación-Confirmado.php"><button value="<? deleteCita($conexion,$numeroCita);?>" class="btn btn-primary">Sí Cancelar</button></a>
                 </div>
             </div>
             <!--            </form>-->
