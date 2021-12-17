@@ -1,3 +1,7 @@
+<?php
+$hoy=date("Y-m-d");
+$time= date("h:i e");
+?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -51,8 +55,9 @@
 <!--    Titulo de contenido-->
         <div class="text-center Content-Header">
             <h1 class="Content-Header__textH1"><ion-icon class="Content-icon" name="person"></ion-icon> Administrador</h1>
-            <p class="Content-Header__text"><ion-icon class="Content-icon" name="calendar"></ion-icon> 16 Sept 2021</p>
-            <p class="Content-Header__text"><ion-icon class="Content-icon" name="time"></ion-icon> 16:08 PM</p>
+            <?php
+            echo "<p class='Content-Header__text'><ion-icon class='Content-icon' name='calendar'></ion-icon> $hoy</p>";
+            ?>
         </div>
 <!--    Encabezado de tabla-->
         <div class="Content-body">
@@ -99,11 +104,29 @@
                 <label for="Pasw_RolInput" class="form-label">Contraseña </label>
                 <input id="Pasw_RolInput" name="__Pasw_RolInput" type="password" class="form-control" value="" required>
             </div>
+            <!--Esconde un campo-->
+            <script class="Content-body__Form-Scrip">
+                function showDiv(divID, element)
+                {
+                    document.getElementById(divID).style.display = element.value ==0?'none':'block';
+                }
+            </script>
+            <!--EL campo a esconder-->
+            <div>
+                <label for="selec_rol" class="form-label">Selecciona el rol al que pertenece</label>
+                <select class="form-select" aria-label="Default select example" id="selec_rol" name="selec_rol"  onchange="showDiv('hidden_div1', this)" required>
+                    <option selected value=0>Selecciona una opción</option>
+                    <option value=0>Administrador</option>
+                    <option value=1>Medico</option>
+                </select>
+                <br>
 <!--            Id doctor -->
-            <div class="mb-3">
-                <label for="DocID_RolInput" class="form-label">Codigo Medico </label>
-                <input id="DocID_RolInput" name="__DocID_RolInput" type="text" class="form-control" value="" placeholder="xxxxx">
+                <div id="hidden_div1">
+                    <label for="DocID_RolInput" class="form-label">Codigo Medico </label>
+                    <input id="DocID_RolInput" name="__DocID_RolInput" type="text" class="form-control" value="" placeholder="xxxxx"><br>
+                </div>
             </div>
+
 <!--            clinica labora-->
             <div class="mb-3">
                 <label for="DocClinic_RolInput" class="form-label">Clinica Asociada </label>

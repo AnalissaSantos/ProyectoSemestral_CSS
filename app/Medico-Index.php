@@ -1,3 +1,7 @@
+<?php
+$hoy=date("Y-m-d");
+$time= date("h:i e");
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -40,6 +44,9 @@
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div class="d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
             <h1 class="h2"><ion-icon ion-icon name="home" size="large" ></ion-icon>Inicio</h1>
+            <?php
+            echo "<p class='Content-Header__text'><ion-icon class='Content-icon' name='calendar'></ion-icon> $hoy</p>";
+            ?>
         </div>
 
         <div class="col-lg-9 col-md-8">
