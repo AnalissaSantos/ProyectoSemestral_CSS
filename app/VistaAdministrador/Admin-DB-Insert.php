@@ -14,17 +14,6 @@
             values  ('$nombre', '$apellido', null, '$cedula', '$email', '$contrasena');";
     $request=mysqli_query($conexion,$sql);
 
-//    if ($tipoRol==1){
-//        $sql2="SELECT * FROM Personal WHERE Cedula_Pers='$cedula';";
-//        $request2=mysqli_query($conexion,$sql2);
-//        $data=$request2->fetch_assoc();
-//        $data=$data["ID_Personal"];
-//
-//        $sql3="insert into CitaWebDB.Doctor (ID_Doctor, ID_Personal, ID_Polic, ID_Especialidad)
-//                values  ('$doctorid','$data', '$idclinica',2),";
-//        $request3=mysqli_query($conexion,$sql3);
-//    }
-
     if ($request == TRUE)
     {
         header("Location: ../Admin-Rol-New-Validacion.php");

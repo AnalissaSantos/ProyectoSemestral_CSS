@@ -103,7 +103,7 @@
                 <label for="select_medico" class="form-label">Médico</label>
                 <select class="form-select" aria-label="Default select example" id="select_Especialidad" name="select_medico" required>
                     <option selected>Selecciona un doctor</option>
-                    <option value="0">Cualquier Doctor disponible</option>
+                    <option value="3">Cualquier Doctor disponible</option>
                     <option value="6">Dra. Ana Saa </option>
                     <option value="7">Dr. Renné Rana</option>
                     <option value="8">Dr. Viktor Nikifrov</option>
