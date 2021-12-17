@@ -37,6 +37,7 @@ $time= date("h:i e");
         </div>
     </header>
 </div>
+
 <?php include_once "Medico-.php"?>
 <div class="container-fluid">
 
@@ -50,11 +51,8 @@ $time= date("h:i e");
         </div>
 
         <div class="col-lg-9 col-md-8">
-
             <h1 class="font-weight-bold mb-0">Bienvenida Dr. Jane Doe</h1>
-
         </div>
-
         <br>
 
         <div class="container">
@@ -69,9 +67,7 @@ $time= date("h:i e");
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
 
         <br>

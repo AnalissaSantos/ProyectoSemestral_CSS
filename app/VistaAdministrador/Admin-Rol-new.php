@@ -141,7 +141,7 @@ $time= date("h:i e");
 <!--            Enviar cambios-->
             <br>
             <div>
-                <button style="margin: 0em 1em 3em 0em" type="submit" class="btn btn-primary">Submit</button>
+                <button style="margin: 0em 1em 3em 0em" type="submit" class="btn btn-primary">Enviar</button>
                 <a onclick="history.back()"><button style="margin: 0em 0em 3em 1em" type="button" class="btn btn-primary">Cancelar</button></a>
             </div>
         </form>
