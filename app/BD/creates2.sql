@@ -1,6 +1,6 @@
-# CREATE DATABASE CitaWebDB;
+CREATE DATABASE CitaWebDB;
 
-# use CitaWebDB;
+use CitaWebDB;
 
 CREATE TABLE Paciente (
     N_CedulaPaciente VARCHAR(20) NOT NULL,
@@ -113,6 +113,7 @@ CREATE TABLE Cita(
     Is_Control BOOLEAN NOT NULL,
     hora_cita time not null,
     ID_Personal INTEGER NOT NULL,
+    ID_Polic INTEGER null,
         CONSTRAINT Cita_Doct_ID_FK FOREIGN KEY (ID_Personal)
                 REFERENCES Doctor(ID_Personal),/* --doctor*/
     ID_Especialidad INTEGER NOT NULL,
@@ -126,7 +127,7 @@ CREATE TABLE Cita(
     ID_Estado_Cita INTEGER NOT NULL,
         CONSTRAINT Cita_ID_Estado_Cita_FK FOREIGN KEY (ID_Estado_Cita)
                 REFERENCES Cita_Estado (ID_Estado_Cita),
-
+    FOREIGN KEY (ID_Polic) references Policlinica(ID_Polic)
 #   Keys
     CONSTRAINT Cita_PK PRIMARY KEY (N_Cita, ID_Personal, N_CedulaPaciente)
 );
